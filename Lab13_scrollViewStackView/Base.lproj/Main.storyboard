@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Lab13_scrollViewStackView" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QK2-gn-KAY">
+                                <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="Kgs-jQ-ahH">
+                                        <rect key="frame" x="0.0" y="0.0" width="3510" height="844"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sanro9像" translatesAutoresizingMaskIntoConstraints="NO" id="gGU-8F-wSn">
+                                                <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HelloKitty" translatesAutoresizingMaskIntoConstraints="NO" id="TJ7-Io-iBt">
+                                                <rect key="frame" x="390" y="0.0" width="390" height="844"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kiki" translatesAutoresizingMaskIntoConstraints="NO" id="56c-Mi-qmU">
+                                                <rect key="frame" x="780" y="0.0" width="390" height="844"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LaLa" translatesAutoresizingMaskIntoConstraints="NO" id="xSG-rC-7IN">
+                                                <rect key="frame" x="1170" y="0.0" width="390" height="844"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="大眼蛙" translatesAutoresizingMaskIntoConstraints="NO" id="MDw-iH-9i0">
+                                                <rect key="frame" x="1560" y="0.0" width="390" height="844"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="庫企鵝" translatesAutoresizingMaskIntoConstraints="NO" id="6vL-I8-RBA">
+                                                <rect key="frame" x="1950" y="0.0" width="390" height="844"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="淘氣猴" translatesAutoresizingMaskIntoConstraints="NO" id="v75-Ur-lwg">
+                                                <rect key="frame" x="2340" y="0.0" width="390" height="844"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="美樂蒂" translatesAutoresizingMaskIntoConstraints="NO" id="k9m-6L-oDo">
+                                                <rect key="frame" x="2730" y="0.0" width="390" height="844"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="酷洛米" translatesAutoresizingMaskIntoConstraints="NO" id="UKv-rS-Acd">
+                                                <rect key="frame" x="3120" y="0.0" width="390" height="844"/>
+                                            </imageView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="gGU-8F-wSn" firstAttribute="width" secondItem="hJq-Yw-MCc" secondAttribute="width" id="2ep-95-RaY"/>
+                                    <constraint firstItem="Kgs-jQ-ahH" firstAttribute="trailing" secondItem="HoE-8d-z49" secondAttribute="trailing" id="61j-F6-Z8B"/>
+                                    <constraint firstItem="gGU-8F-wSn" firstAttribute="height" secondItem="hJq-Yw-MCc" secondAttribute="height" id="8KW-bF-O2q"/>
+                                    <constraint firstItem="Kgs-jQ-ahH" firstAttribute="top" secondItem="HoE-8d-z49" secondAttribute="top" id="LcF-Yg-hhu"/>
+                                    <constraint firstItem="Kgs-jQ-ahH" firstAttribute="leading" secondItem="HoE-8d-z49" secondAttribute="leading" id="NJA-Wh-OhK"/>
+                                    <constraint firstItem="Kgs-jQ-ahH" firstAttribute="bottom" secondItem="HoE-8d-z49" secondAttribute="bottom" id="kkn-T6-IOz"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="HoE-8d-z49"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="hJq-Yw-MCc"/>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="QK2-gn-KAY" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="3af-dB-IEa"/>
+                            <constraint firstAttribute="trailing" secondItem="QK2-gn-KAY" secondAttribute="trailing" id="JwX-2u-YLX"/>
+                            <constraint firstAttribute="bottom" secondItem="QK2-gn-KAY" secondAttribute="bottom" id="gwZ-Jg-UxL"/>
+                            <constraint firstItem="QK2-gn-KAY" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="yoj-2l-W5F"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="140" y="89.5734597156398"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="HelloKitty" width="678" height="646"/>
+        <image name="LaLa" width="686" height="649"/>
+        <image name="kiki" width="686" height="649"/>
+        <image name="sanro9像" width="320" height="319"/>
+        <image name="大眼蛙" width="690" height="651"/>
+        <image name="庫企鵝" width="688" height="649"/>
+        <image name="淘氣猴" width="690" height="648"/>
+        <image name="美樂蒂" width="684" height="682"/>
+        <image name="酷洛米" width="681" height="676"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
